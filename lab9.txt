@@ -1,0 +1,52 @@
+Q1a: Test des formes normales
+
+a) BA, BC, BD, ABC, ABD, BCD
+b) R est dans BCNF mais n'est pas dans 3NF.
+
+Q1b: Test des formes normales
+
+a) AB, AC, BC, BD, CD
+b) R est dans BCNF et dans 3NF.
+
+Q1c: Test des formes normales
+
+a) B, BA, BC, BD, ABC, ABD, BCD
+b) Non, S n'est pas dans 3NF ni dans BCNF.
+
+Q1d: Test des formes normales
+
+a) BC, ABC, BCD
+b) R est dans 3NF et BCNF.
+
+Q1e: Test des formes normales
+
+a) AB, ABC, ABD
+b) R est dans 3NF et BCNF.
+
+Q2b: Test de la dépendance fonctionnelle
+
+oui A est valide. 
+
+A -> C
+BC -> C
+
+Q2c: Test de la dépendance fonctionnelle
+
+Oui C est valide.
+
+BA -> C
+B -> C
+AC -> C
+
+Q2d: Test de la dépendance fonctionnelle
+
+Oui C est valide.
+
+BA -> C
+B -> C
+AC -> C
+
+Q3: Couverture canonique
+
+{D->A,B->D}
+
